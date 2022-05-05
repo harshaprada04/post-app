@@ -1,0 +1,68 @@
+{
+  "name": "post_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.26",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-test-renderer": "^18.0.0",
+    "axios": "^0.26.0",
+    "babel-jest": "^28.0.2",
+    "dom": "^0.0.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "build": "react-scripts --max_old_space_size=4096 build",
+    "test": "react-scripts test --silent --watchAll --coverage",
+    "eject": "react-scripts eject",
+    "coverage": "jest--collect-coverage"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "setupFiles": [
+    "jest-prop-type-error"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^13.1.1",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/index.tsx",
+      "!src/reportWebVitals.ts"
+    ]
+  }
+}

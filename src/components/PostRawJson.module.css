@@ -1,0 +1,23 @@
+.background{
+  position: absolute;
+  width:100%;
+  background-color:#E7EBF0;
+  margin-top: -20px;
+}
+.scroll_page{
+  overflow-x: scroll;
+}
+.scroll{
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+}
+.scroll::-webkit-scrollbar{
+  display: none;
+}
+.button {
+  position: relative;
+  bottom: 10px;
+  top: 55px;
+  left: 40px;
+}
