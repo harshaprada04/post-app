@@ -34,14 +34,14 @@ function PostRawJson() {
       }}>
         <TableHead>
           <TableRow>
-            <TableCell style={{position:"relative", left:"550px", fontSize:"1.1rem",top:"25px"}}>
+            <TableCell style={{position:"relative", left:"550px", fontSize:"1.1rem",top:"14px"}}>
               Raw Json Data
             </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           <TableRow>
-            <TableCell style={{paddingTop:"30px"}}>
+            <TableCell style={{paddingTop:"20px"}}>
            <pre>{JSON.stringify(context.json, null, 10)}</pre> 
             </TableCell>
           </TableRow>

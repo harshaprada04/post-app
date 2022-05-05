@@ -92,7 +92,7 @@ function Homepage(): any {
                   Url
                 </TableCell>
                 <TableCell style={{ width: "10%", fontSize:"1rem"}} align="left">
-                  Autor
+                  Author
                 </TableCell>
                 <TableCell style={{ width: "10%", fontSize:"1rem"}} align="left">
                   Created at
